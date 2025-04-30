@@ -1,0 +1,264 @@
+(footprint "PTS636SK43SMTRLFS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PTS636 SK43 SMTR LFS-2")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at -0.3 0 0)
+		(layer "F.SilkS")
+		(uuid "aac20d6b-8825-4b39-a084-98a1c1f751c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PTS636SK43SMTRLFS"
+		(at -0.3 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d972e03-0b52-4f28-8d77-e9b0bb6efd4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8aa0ca3-8566-478d-8fbb-fb31667f6986")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15eec768-730b-42e1-bc58-18853ecddd4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "846d853b-d9ea-408b-9930-bc776ef7af34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.7 -0.1)
+		(end -5.7 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c79da64a-8c86-4097-a208-70743a49ea0f")
+	)
+	(fp_line
+		(start -5.5 -0.1)
+		(end -5.5 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbea1d32-f034-4114-a3c5-86db478f48f9")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0dabfdb7-41f3-4f9a-9f48-0d4a40bd4a22")
+	)
+	(fp_line
+		(start -3 -1.1)
+		(end -3 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4600ead8-f20d-43d1-b1e6-46e37d874a65")
+	)
+	(fp_line
+		(start -3 1.1)
+		(end -3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "301632bd-585f-429e-a156-cdec0e3a548b")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0315f462-c260-48bf-b09a-da20d2450b1b")
+	)
+	(fp_line
+		(start 3 -1.75)
+		(end 3 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2741c73c-f2be-4d1c-85e4-ffe9326c7305")
+	)
+	(fp_line
+		(start 3 1.75)
+		(end 3 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8adb76e2-bd3e-4a77-93cf-fa7425d72922")
+	)
+	(fp_arc
+		(start -5.7 -0.1)
+		(mid -5.6 -0.2)
+		(end -5.5 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88aab1fe-6558-4087-bff9-fe0fbf04ec18")
+	)
+	(fp_arc
+		(start -5.5 -0.1)
+		(mid -5.6 0)
+		(end -5.7 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79f19239-fea0-424d-a70e-9486678ac2a4")
+	)
+	(fp_line
+		(start -6.7 -2.75)
+		(end 6.1 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c5f89292-8d8f-4654-bdf1-03a1de476fa9")
+	)
+	(fp_line
+		(start -6.7 2.75)
+		(end -6.7 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9218afc5-a397-42c6-89e5-b1fa48f7e455")
+	)
+	(fp_line
+		(start -3 -1.75)
+		(end 3 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "46c94b9f-e69c-485f-b5aa-b6e8397d8d40")
+	)
+	(fp_line
+		(start -3 1.75)
+		(end -3 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4c513c8a-4b0b-4ccd-a728-fa0b940c5874")
+	)
+	(fp_line
+		(start 3 -1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "66c9974d-f129-4416-b9bd-14e0135696e2")
+	)
+	(fp_line
+		(start 3 1.75)
+		(end -3 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3f54725b-8f65-4848-95b2-8a3dc1c989d2")
+	)
+	(fp_line
+		(start 6.1 -2.75)
+		(end 6.1 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4f2470ef-28b2-4144-9176-9f52b7d2898b")
+	)
+	(fp_line
+		(start 6.1 2.75)
+		(end -6.7 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "07cfbaa9-bc40-4211-b6de-ce9ff4b3f302")
+	)
+	(pad "1" smd rect
+		(at -4.1 0 90)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "9a110635-12b5-40e7-864d-17aacb8c04fa")
+	)
+	(pad "2" smd rect
+		(at 4.1 0 90)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "91a95a7e-0a07-4801-a40b-ffad5404f998")
+	)
+)

@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "10c397d0-57ee-46c2-8cf6-a8bb465fd17a")
+	(paper "A4")
+	(title_block
+		(title "Carte_Embarquée_CRAN_SEGULA")
+		(date "28/03/2025")
+		(rev "11/04/2025")
+	)
+	(lib_symbols)
+)
