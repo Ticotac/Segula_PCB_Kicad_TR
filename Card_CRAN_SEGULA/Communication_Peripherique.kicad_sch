@@ -3301,126 +3301,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -3711,16 +3591,16 @@
 		(uuid "602f8b43-4b4b-4f76-bdff-7cfbc0a3a129")
 	)
 	(junction
-		(at 144.78 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a382020-360f-4a58-b94c-818db832f491")
-	)
-	(junction
 		(at 38.1 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b561591-5de6-41a1-9ba1-26e09ae3dba8")
+	)
+	(junction
+		(at 91.44 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ec26719-44f0-4d38-8869-827de4a309d3")
 	)
 	(junction
 		(at 199.39 76.2)
@@ -3747,6 +3627,12 @@
 		(uuid "adb6a03f-68b3-44f6-ad0d-1735a2413649")
 	)
 	(junction
+		(at 144.78 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09f1cee-11e9-4d9a-8971-d77fe347fbc7")
+	)
+	(junction
 		(at 148.59 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3757,12 +3643,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d08c036b-4045-41ff-bcce-546903c8c581")
-	)
-	(junction
-		(at 91.44 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d23ddab9-8b7d-4727-b328-56c5bd442e64")
 	)
 	(junction
 		(at 55.88 69.85)
@@ -3965,6 +3845,16 @@
 			(type dash)
 		)
 		(uuid "1c550a1d-00c6-4215-9cff-efbd9c5b6bb1")
+	)
+	(wire
+		(pts
+			(xy 144.78 157.48) (xy 147.32 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca0201a-b161-43cb-b842-452b6183b1a9")
 	)
 	(wire
 		(pts
@@ -4386,6 +4276,16 @@
 		)
 		(uuid "600df9ae-d7ab-46c8-a62f-207e820a7008")
 	)
+	(wire
+		(pts
+			(xy 91.44 157.48) (xy 93.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612d7fc9-1fc8-44b1-9951-4b8eb22ae38e")
+	)
 	(polyline
 		(pts
 			(xy 177.8 25.4) (xy 177.8 152.4)
@@ -4628,6 +4528,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 82.55) (xy 199.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8825e928-83a6-4cd1-a2f3-d4fd938de2f7")
+	)
+	(wire
+		(pts
 			(xy 146.05 177.8) (xy 148.59 177.8)
 		)
 		(stroke
@@ -4645,16 +4555,6 @@
 			(type default)
 		)
 		(uuid "8cba1630-294d-48e8-8748-515fa6a08cfa")
-	)
-	(wire
-		(pts
-			(xy 91.44 157.48) (xy 93.98 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f666876-a94a-4b3a-bdc3-0993177e38fa")
 	)
 	(wire
 		(pts
@@ -4998,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 81.28) (xy 199.39 76.2)
+			(xy 199.39 76.2) (xy 199.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5105,16 +5005,6 @@
 			(type default)
 		)
 		(uuid "eb37dffd-0b34-4c69-9361-60cd5d6c2231")
-	)
-	(wire
-		(pts
-			(xy 144.78 157.48) (xy 147.32 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb5eb89-1693-4285-8933-37ffee80c8c9")
 	)
 	(wire
 		(pts
@@ -5669,7 +5559,7 @@
 		)
 	)
 	(global_label "WIFI_VBAT"
-		(shape bidirectional)
+		(shape output)
 		(at 147.32 157.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5680,7 +5570,7 @@
 		)
 		(uuid "593b6ec5-374b-458b-9429-55a2a4f6c309")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.5485 157.48 0)
+			(at 159.4372 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +5801,7 @@
 		)
 	)
 	(global_label "WIFI_INT"
-		(shape bidirectional)
+		(shape input)
 		(at 129.54 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5922,7 +5812,7 @@
 		)
 		(uuid "aa17a62d-68f4-4e6a-879e-bce7fc3ecda8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.2566 77.47 0)
+			(at 140.1453 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +5955,7 @@
 		)
 	)
 	(global_label "WIFI_VBAT"
-		(shape bidirectional)
+		(shape input)
 		(at 63.5 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6076,7 +5966,7 @@
 		)
 		(uuid "d2bbe890-789c-49c1-8966-96c3db749ae8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.2715 100.33 0)
+			(at 51.3828 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6021,7 @@
 		)
 	)
 	(global_label "WIFI_BUCVBATS"
-		(shape input)
+		(shape output)
 		(at 129.54 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6142,7 +6032,7 @@
 		)
 		(uuid "f7ce0cbb-c66d-4b32-b533-d088efd3b188")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8485 115.57 0)
+			(at 146.7372 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 134.62 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6237,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 138.43 130.8099 90)
 			(effects
 				(font
@@ -6264,7 +6154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 134.62 130.81 0)
 			(effects
 				(font
@@ -6311,7 +6201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_22nF_10V_GRM033R61A223KE84D:CAPC0603X33N"
 			(at 27.94 36.5252 0)
 			(effects
 				(font
@@ -6320,7 +6210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM033R61A223KE84D"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -6329,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM033R61A223KE84D"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -6379,7 +6269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_2.2uF_GRM188R61H225KE11D:CAPC1608X100N"
+		(property "Footprint" "Capacitor_2_2uF_16V_GRM188C71C225KE11J:CAPC1608X100N"
 			(at 91.44 34.5948 0)
 			(effects
 				(font
@@ -6388,7 +6278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM188R61H225KE11D"
+		(property "Datasheet" "GRM188C71C225KE11J"
 			(at 87.63 35.56 0)
 			(effects
 				(font
@@ -6397,7 +6287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor GRM188R61H225KE11D"
+		(property "Description" "Unpolarized capacitor GRM188C71C225KE11J"
 			(at 87.63 35.56 0)
 			(effects
 				(font
@@ -6513,7 +6403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_1uF_C0603C105Z3VACTU:CAPC17595_90N_KEM"
+		(property "Footprint" "Capacitor_1uF_16V_GRM155C81C105KE11D:CAPC1005X60N"
 			(at 148.59 46.0248 0)
 			(effects
 				(font
@@ -6522,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C105Z3VACTU"
+		(property "Datasheet" "GRM155C81C105KE11D"
 			(at 144.78 46.99 0)
 			(effects
 				(font
@@ -6531,7 +6421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor C0603C105Z3VACTU"
+		(property "Description" "Unpolarized capacitor GRM155C81C105KE11D"
 			(at 144.78 46.99 0)
 			(effects
 				(font
@@ -6649,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_100nF_GRM155C71H104JE19D:CAPC1005X55N"
+		(property "Footprint" "Capacitor_100nF_16V_GRM033C71C104KE14D:CAPC0603X33N"
 			(at 56.8452 69.85 0)
 			(effects
 				(font
@@ -6658,7 +6548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM155C71H104JE19D"
+		(property "Datasheet" "GRM033C71C104KE14D"
 			(at 55.88 66.04 0)
 			(effects
 				(font
@@ -6667,7 +6557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor GRM155C71H104JE19D"
+		(property "Description" "Unpolarized capacitor GRM033C71C104KE14D"
 			(at 55.88 66.04 0)
 			(effects
 				(font
@@ -7268,7 +7158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_4_7uF_GRM188C81E475KE11D:CAPC1608X100N"
 			(at 140.97 156.5148 0)
 			(effects
 				(font
@@ -7277,7 +7167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM188C81E475KE11D"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -7286,7 +7176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM188C81E475KE11D"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -7604,7 +7494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_4_7uF_GRM188C81E475KE11D:CAPC1608X100N"
 			(at 149.5552 137.16 0)
 			(effects
 				(font
@@ -7613,7 +7503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM188C81E475KE11D"
 			(at 148.59 133.35 0)
 			(effects
 				(font
@@ -7622,7 +7512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM188C81E475KE11D"
 			(at 148.59 133.35 0)
 			(effects
 				(font
@@ -7858,7 +7748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 267.97 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7876,7 +7766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 267.97 107.95 0)
 			(effects
 				(font
@@ -7902,7 +7792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 267.97 113.03 0)
 			(effects
 				(font
@@ -8227,7 +8117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 238.76 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8245,7 +8135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 238.76 29.21 0)
 			(effects
 				(font
@@ -8271,7 +8161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 238.76 34.29 0)
 			(effects
 				(font
@@ -8457,7 +8347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_0_22uF_GRM033R61A224KE90D:CAPC0603X33N"
 			(at 34.29 156.5148 0)
 			(effects
 				(font
@@ -8466,7 +8356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM033R61A224KE90D"
 			(at 30.48 157.48 0)
 			(effects
 				(font
@@ -8475,7 +8365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM033R61A224KE90D"
 			(at 30.48 157.48 0)
 			(effects
 				(font
@@ -8500,7 +8390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 152.4 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8518,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 152.4 58.42 0)
 			(effects
 				(font
@@ -8544,7 +8434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 152.4 63.5 0)
 			(effects
 				(font
@@ -8765,6 +8655,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 205.74 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "719dd033-f507-4547-bd59-29b1b940fb2b")
+		(property "Reference" "#PWR199"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 209.55 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdb07923-d5e2-4907-978b-789e074351c7")
+		)
+		(instances
+			(project "Card_CRAN_SEGULA"
+				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/4d5f5925-ccfb-4dc5-adb7-2c068210a9ca"
+					(reference "#PWR199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 48.26 0)
 		(unit 1)
@@ -8924,7 +8881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_100nF_GRM155C71H104JE19D:CAPC1005X55N"
+		(property "Footprint" "Capacitor_100nF_16V_GRM033C71C104KE14D:CAPC0603X33N"
 			(at 36.83 117.1448 0)
 			(effects
 				(font
@@ -8933,7 +8890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM155C71H104JE19D"
+		(property "Datasheet" "GRM033C71C104KE14D"
 			(at 33.02 118.11 0)
 			(effects
 				(font
@@ -8942,7 +8899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor GRM155C71H104JE19D"
+		(property "Description" "Unpolarized capacitor GRM033C71C104KE14D"
 			(at 33.02 118.11 0)
 			(effects
 				(font
@@ -9033,7 +8990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 144.78 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9051,7 +9008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 144.78 149.86 0)
 			(effects
 				(font
@@ -9077,7 +9034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 144.78 154.94 0)
 			(effects
 				(font
@@ -9189,7 +9146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_0_47uF_GRM033R60J474KE90D:CAPC0603X33N"
 			(at 35.56 47.2948 0)
 			(effects
 				(font
@@ -9198,7 +9155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM033R60J474KE90D"
 			(at 31.75 48.26 0)
 			(effects
 				(font
@@ -9207,7 +9164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM033R60J474KE90D"
 			(at 31.75 48.26 0)
 			(effects
 				(font
@@ -9324,7 +9281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_1uF_C0603C105Z3VACTU:CAPC17595_90N_KEM"
+		(property "Footprint" "Capacitor_1uF_10V_GCM155C71A105KE38D:CAPC1005X70N"
 			(at 91.44 46.0248 0)
 			(effects
 				(font
@@ -9333,7 +9290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C105Z3VACTU"
+		(property "Datasheet" "GCM155C71A105KE38D"
 			(at 87.63 46.99 0)
 			(effects
 				(font
@@ -9342,7 +9299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor C0603C105Z3VACTU"
+		(property "Description" "Unpolarized capacitor GCM155C71A105KE38D"
 			(at 87.63 46.99 0)
 			(effects
 				(font
@@ -9528,7 +9485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_4_7uF_GRM188C81E475KE11D:CAPC1608X100N"
 			(at 133.0452 139.7 0)
 			(effects
 				(font
@@ -9537,7 +9494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM188C81E475KE11D"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -9546,7 +9503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM188C81E475KE11D"
 			(at 132.08 135.89 0)
 			(effects
 				(font
@@ -9598,7 +9555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_0_47uF_GRM033R60J474KE90D:CAPC0603X33N"
 			(at 162.2552 137.16 0)
 			(effects
 				(font
@@ -9607,7 +9564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM033R60J474KE90D"
 			(at 161.29 133.35 0)
 			(effects
 				(font
@@ -9616,7 +9573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM033R60J474KE90D"
 			(at 161.29 133.35 0)
 			(effects
 				(font
@@ -9711,7 +9668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 208.28 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9729,7 +9686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 208.28 44.45 0)
 			(effects
 				(font
@@ -9755,7 +9712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 208.28 49.53 0)
 			(effects
 				(font
@@ -9802,7 +9759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_2.2uF_GRM188R61H225KE11D:CAPC1608X100N"
+		(property "Footprint" "Capacitor_2_2uF_16V_GRM188C71C225KE11J:CAPC1608X100N"
 			(at 162.56 71.4248 0)
 			(effects
 				(font
@@ -9811,7 +9768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM188R61H225KE11D"
+		(property "Datasheet" "GRM188C71C225KE11J"
 			(at 158.75 72.39 0)
 			(effects
 				(font
@@ -9820,7 +9777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor GRM188R61H225KE11D"
+		(property "Description" "Unpolarized capacitor GRM188C71C225KE11J"
 			(at 158.75 72.39 0)
 			(effects
 				(font
@@ -9839,72 +9796,6 @@
 			(project ""
 				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/4d5f5925-ccfb-4dc5-adb7-2c068210a9ca"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 148.59 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a974d91f-edfc-452d-9795-67883e78f79f")
-		(property "Reference" "#PWR125"
-			(at 148.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 148.59 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5519a983-fc2c-4649-b3d3-432538057966")
-		)
-		(instances
-			(project ""
-				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/4d5f5925-ccfb-4dc5-adb7-2c068210a9ca"
-					(reference "#PWR125")
 					(unit 1)
 				)
 			)
@@ -9936,7 +9827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_3_3uH_74479775233:WE-PMI_0805_H1"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -9945,7 +9836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "74479775233"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -9954,7 +9845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor 74479775233"
 			(at 143.51 128.27 0)
 			(effects
 				(font
@@ -10006,7 +9897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_1uF_C0603C105Z3VACTU:CAPC17595_90N_KEM"
+		(property "Footprint" "Capacitor_1uF_GRM155R6YA105KE11D:CAPC1005X60N"
 			(at 53.6448 120.65 0)
 			(effects
 				(font
@@ -10015,7 +9906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C0603C105Z3VACTU"
+		(property "Datasheet" "GRM155R6YA105KE11D"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -10024,7 +9915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor C0603C105Z3VACTU"
+		(property "Description" "Unpolarized capacitor GRM155R6YA105KE11D"
 			(at 54.61 124.46 0)
 			(effects
 				(font
@@ -10542,16 +10433,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 199.39 81.28 180)
+		(at 148.59 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb1b14f7-2264-4b5c-96e3-31c78cc507ee")
-		(property "Reference" "#PWR27"
-			(at 199.39 77.47 0)
+		(uuid "d6c41ac5-d97b-40d5-b967-307327b7f497")
+		(property "Reference" "#PWR198"
+			(at 148.59 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10451,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 199.39 86.36 0)
+			(at 148.59 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 81.28 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 81.28 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +10477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 81.28 0)
+			(at 148.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,12 +10486,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "727bd980-0d43-42c5-8726-2103ab893a6c")
+			(uuid "9fbb7a95-521d-4194-864d-2fe58b4f1da6")
 		)
 		(instances
-			(project ""
+			(project "Card_CRAN_SEGULA"
 				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/4d5f5925-ccfb-4dc5-adb7-2c068210a9ca"
-					(reference "#PWR27")
+					(reference "#PWR198")
 					(unit 1)
 				)
 			)
@@ -10806,7 +10697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 91.44 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10824,7 +10715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 91.44 149.86 0)
 			(effects
 				(font
@@ -10850,7 +10741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 91.44 154.94 0)
 			(effects
 				(font
@@ -10938,7 +10829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 53.34 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10956,7 +10847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 49.53 118.1099 90)
 			(effects
 				(font
@@ -10983,7 +10874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 53.34 118.11 0)
 			(effects
 				(font
@@ -11032,7 +10923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_2.2uF_GRM188R61H225KE11D:CAPC1608X100N"
+		(property "Footprint" "Capacitor_2_2uF_25V_GRM155R61E225KE11D:CAPC1005X70N"
 			(at 158.4452 107.95 0)
 			(effects
 				(font
@@ -11041,7 +10932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM188R61H225KE11D"
+		(property "Datasheet" "GRM155R61E225KE11D"
 			(at 157.48 104.14 0)
 			(effects
 				(font
@@ -11050,7 +10941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor GRM188R61H225KE11D"
+		(property "Description" "Unpolarized capacitor GRM155R61E225KE11D"
 			(at 157.48 104.14 0)
 			(effects
 				(font
@@ -11100,7 +10991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_2.2uF_GRM188R61H225KE11D:CAPC1608X100N"
+		(property "Footprint" "Capacitor_2_2uF_16V_GRM188C71C225KE11J:CAPC1608X100N"
 			(at 87.63 156.5148 0)
 			(effects
 				(font
@@ -11109,7 +11000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM188R61H225KE11D"
+		(property "Datasheet" "GRM188C71C225KE11J"
 			(at 83.82 157.48 0)
 			(effects
 				(font
@@ -11118,7 +11009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor GRM188R61H225KE11D"
+		(property "Description" "Unpolarized capacitor GRM188C71C225KE11J"
 			(at 83.82 157.48 0)
 			(effects
 				(font
@@ -11168,7 +11059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_4_7uF_GRM188C81E475KE11D:CAPC1608X100N"
 			(at 29.21 131.7752 0)
 			(effects
 				(font
@@ -11177,7 +11068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "GRM188C81E475KE11D"
 			(at 33.02 130.81 0)
 			(effects
 				(font
@@ -11186,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor GRM188C81E475KE11D"
 			(at 33.02 130.81 0)
 			(effects
 				(font

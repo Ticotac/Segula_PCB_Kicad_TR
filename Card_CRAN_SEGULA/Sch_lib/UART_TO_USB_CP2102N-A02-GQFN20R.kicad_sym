@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "UART_TO_USB_CP2102N-A02-GQFN20R:SILABS_CP2102N-A02-GQFN20R"
+		(property "Footprint" "UART_TO_USB_CP2102N-A02-GQFN20R:QFN20_SIL"
 			(at 0 0 0)
 			(effects
 				(font
