@@ -5435,7 +5435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "GRM155C71H104JE19D"
+		(property "Datasheet" "GRM155C71H104JE19J"
 			(at 128.27 104.14 0)
 			(effects
 				(font
@@ -5530,76 +5530,6 @@
 			(project "Card_CRAN_SEGULA"
 				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/6bc3fe57-fc64-4617-9eb9-8962e5b37a5d"
 					(reference "#PWR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor:R")
-		(at 193.04 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7652003e-e2d7-4a2d-940c-9260522b3989")
-		(property "Reference" "R2"
-			(at 195.58 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R"
-			(at 195.58 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_10R_ERA-2AKD100X:RES_ERA2AKD100X"
-			(at 191.262 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ERA-2AKD100X"
-			(at 193.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor ERA-2AKD100X"
-			(at 193.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd23e035-9c89-41e5-9352-7f8ad9451668")
-		)
-		(pin "1"
-			(uuid "782ad644-1cde-40fb-8f8b-edd77f2633c7")
-		)
-		(instances
-			(project ""
-				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/6bc3fe57-fc64-4617-9eb9-8962e5b37a5d"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6733,6 +6663,76 @@
 			(project ""
 				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/6bc3fe57-fc64-4617-9eb9-8962e5b37a5d"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistor:R")
+		(at 193.04 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa46eed2-1145-4bf1-81cf-7c6565b184fd")
+		(property "Reference" "R2"
+			(at 195.58 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 195.58 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_10kR_CRGP0402F10K:RESC1105X40N"
+			(at 191.262 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CRGP0402F10K"
+			(at 193.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor CRGP0402F10K"
+			(at 193.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a21bda75-44cf-419a-9a12-2365205cb212")
+		)
+		(pin "1"
+			(uuid "d0a87509-b89e-4e43-9b2b-e5c943505928")
+		)
+		(instances
+			(project "Card_CRAN_SEGULA"
+				(path "/3db65ff8-efa4-4a5b-9e49-72b4834469e4/6bc3fe57-fc64-4617-9eb9-8962e5b37a5d"
+					(reference "R2")
 					(unit 1)
 				)
 			)
